@@ -14,12 +14,12 @@ import video1 from "../../video.mp4";
 export const Recipe = () => {
   const [showVideo, setShowVideo] = useState(false)
 
-  useEffect(() => {
-    const res = fetch(
-      "https://307b-2406-7400-56-2de5-be80-1b33-36af-769a.ngrok-free.app/brar/video?file_name='Desi chicken shawar'"
-    );
+  // useEffect(() => {
+  //   const res = fetch(
+  //     "https://307b-2406-7400-56-2de5-be80-1b33-36af-769a.ngrok-free.app/brar/video?file_name='Desi chicken shawar'"
+  //   );
 
-  }, [])
+  // }, [])
 
   return (
     <div className="recipe">
@@ -102,7 +102,10 @@ export const Recipe = () => {
               />
             ) : (
               <video width="350" height="200" controls>
-                <source src={video1} type="video/mp4" />
+                <source
+                  src="https://www.youtube.com/watch?v=hN4f9POjgEk"
+                  type="video/mp4"
+                />
               </video>
             )}
             <div className="frame">
