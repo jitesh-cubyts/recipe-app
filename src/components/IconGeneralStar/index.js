@@ -1,0 +1,1 @@
+export { IconGeneralStar } from "./IconGeneralStar";

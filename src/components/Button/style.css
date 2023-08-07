@@ -1,0 +1,260 @@
+.button {
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.button .label {
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+}
+
+.button .icon-general-arrow-right {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.button .icon-general-arrow-instance {
+  height: 12px !important;
+  left: 3px !important;
+  top: 4px !important;
+  width: 13px !important;
+}
+
+.button .text-wrapper {
+  flex: 1;
+  margin-top: -1px;
+  position: relative;
+}
+
+.button.no-icon {
+  display: flex;
+}
+
+.button.large {
+  gap: 8px;
+}
+
+.button.secondary {
+  border: 1px solid;
+}
+
+.button.small {
+  gap: 12px;
+}
+
+.button.icon-only {
+  display: inline-flex;
+}
+
+.button.with-icon {
+  display: flex;
+}
+
+.button.default.primary {
+  background-color: var(--primary-50);
+}
+
+.button.default.secondary {
+  background-color: var(--white-0);
+  border-color: var(--primary-50);
+}
+
+.button.disable.primary {
+  background-color: var(--neutral-20);
+}
+
+.button.disable.secondary {
+  background-color: var(--white-0);
+  border-color: var(--neutral-20);
+}
+
+.button.pressed.primary {
+  background-color: var(--primary-80);
+}
+
+.button.text.no-icon {
+  padding: 4px;
+}
+
+.button.text.icon-only {
+  padding: 5px;
+}
+
+.button.pressed.secondary {
+  background-color: var(--primary-10);
+  border-color: var(--primary-80);
+}
+
+.button.text.with-icon {
+  padding: 4px;
+}
+
+.button.text.default.large {
+  background-color: var(--white-0);
+}
+
+.button.primary.large.icon-only {
+  padding: 17px;
+}
+
+.button.large.no-icon.primary {
+  padding: 16px 32px;
+  width: 161px;
+}
+
+.button.small.no-icon.primary {
+  padding: 8px 16px;
+  width: 117px;
+}
+
+.button.small.primary.icon-only {
+  padding: 8px;
+}
+
+.button.text.with-icon.large {
+  width: 133px;
+}
+
+.button.with-icon.large.primary {
+  padding: 16px 32px;
+  width: 189px;
+}
+
+.button.small.with-icon.primary {
+  padding: 8px 16px;
+  width: 149px;
+}
+
+.button.text.small.with-icon {
+  width: 125px;
+}
+
+.button.text.large.no-icon {
+  width: 105px;
+}
+
+.button.small.secondary.icon-only {
+  padding: 8px;
+}
+
+.button.large.no-icon.secondary {
+  padding: 16px 32px;
+  width: 161px;
+}
+
+.button.text.small.no-icon {
+  width: 93px;
+}
+
+.button.small.no-icon.secondary {
+  padding: 8px 16px;
+  width: 117px;
+}
+
+.button.secondary.large.icon-only {
+  padding: 17px;
+}
+
+.button.with-icon.large.secondary {
+  padding: 16px 32px;
+  width: 189px;
+}
+
+.button.small.with-icon.secondary {
+  padding: 8px 16px;
+  width: 149px;
+}
+
+.button.large .label {
+  font-family: var(--poppins-paragraph-bold-font-family);
+  font-size: var(--poppins-paragraph-bold-font-size);
+  font-style: var(--poppins-paragraph-bold-font-style);
+  font-weight: var(--poppins-paragraph-bold-font-weight);
+  letter-spacing: var(--poppins-paragraph-bold-letter-spacing);
+  line-height: var(--poppins-paragraph-bold-line-height);
+}
+
+.button.small .label {
+  font-family: var(--poppins-label-bold-font-family);
+  font-size: var(--poppins-label-bold-font-size);
+  font-style: var(--poppins-label-bold-font-style);
+  font-weight: var(--poppins-label-bold-font-weight);
+  letter-spacing: var(--poppins-label-bold-letter-spacing);
+  line-height: var(--poppins-label-bold-line-height);
+}
+
+.button.disable .label {
+  color: var(--neutral-50);
+}
+
+.button.default.primary .label {
+  color: var(--white-0);
+}
+
+.button.text.pressed .label {
+  color: var(--primary-80);
+}
+
+.button.default.secondary .label {
+  color: var(--primary-50);
+}
+
+.button.pressed.primary .label {
+  color: var(--white-0);
+}
+
+.button.text.default .label {
+  color: var(--primary-50);
+}
+
+.button.pressed.secondary .label {
+  color: var(--primary-80);
+}
+
+.button.large .text-wrapper {
+  font-family: var(--poppins-paragraph-bold-font-family);
+  font-size: var(--poppins-paragraph-bold-font-size);
+  font-style: var(--poppins-paragraph-bold-font-style);
+  font-weight: var(--poppins-paragraph-bold-font-weight);
+  letter-spacing: var(--poppins-paragraph-bold-letter-spacing);
+  line-height: var(--poppins-paragraph-bold-line-height);
+}
+
+.button.small .text-wrapper {
+  font-family: var(--poppins-label-bold-font-family);
+  font-size: var(--poppins-label-bold-font-size);
+  font-style: var(--poppins-label-bold-font-style);
+  font-weight: var(--poppins-label-bold-font-weight);
+  letter-spacing: var(--poppins-label-bold-letter-spacing);
+  line-height: var(--poppins-label-bold-line-height);
+}
+
+.button.disable .text-wrapper {
+  color: var(--neutral-50);
+}
+
+.button.default.primary .text-wrapper {
+  color: var(--white-0);
+}
+
+.button.text.pressed .text-wrapper {
+  color: var(--primary-80);
+}
+
+.button.default.secondary .text-wrapper {
+  color: var(--primary-50);
+}
+
+.button.pressed.primary .text-wrapper {
+  color: var(--white-0);
+}
+
+.button.text.default .text-wrapper {
+  color: var(--primary-50);
+}
+
+.button.pressed.secondary .text-wrapper {
+  color: var(--primary-80);
+}

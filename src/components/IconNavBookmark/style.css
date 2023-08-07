@@ -1,0 +1,13 @@
+.icon-nav-bookmark {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.icon-nav-bookmark .union-2 {
+  height: 20px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}

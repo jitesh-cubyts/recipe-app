@@ -1,0 +1,13 @@
+.icon-nav-profile {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.icon-nav-profile .union-4 {
+  height: 21px;
+  left: 4px;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+}

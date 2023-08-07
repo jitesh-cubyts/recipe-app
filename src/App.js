@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Onboarding } from "./screens/Onboarding";
+import { Profiling } from "../src/screens/Profiling/screens/Profiling";
+import { Home } from "../src/screens/Home/screens/Home";
+import { Customisation } from "../src/screens/Customisation/screens/Customisation";
+import { IfTheyHave } from "../src/screens/IfTheyHave/screens/IfTheyHave";
+import { Recipe } from "./screens/Recipe/screens/Recipe/Recipe";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Onboarding />} />
+        <Route path="/profiling" element={<Profiling />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/customization" element={<Customisation />} />
+        <Route path="/results" element={<IfTheyHave />} />
+        <Route path="/recipe" element={<Recipe />} />
+      </Routes>
+    </Router>
   );
 }
 

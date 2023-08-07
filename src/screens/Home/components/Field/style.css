@@ -1,0 +1,90 @@
+.field {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+  position: relative;
+  width: 335px;
+}
+
+.field .icon-general-search-instance {
+  height: 20px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 20px !important;
+}
+
+.field .icon-search {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.field .union {
+  height: 16px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+
+.field .label {
+  font-family: var(--poppins-label-regular-font-family);
+  font-size: var(--poppins-label-regular-font-size);
+  font-style: var(--poppins-label-regular-font-style);
+  font-weight: var(--poppins-label-regular-font-weight);
+  letter-spacing: var(--poppins-label-regular-letter-spacing);
+  line-height: var(--poppins-label-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.field.focus {
+  background-color: var(--white-0);
+  border-color: var(--primary-50);
+}
+
+.field.filled {
+  background-color: var(--white-0);
+  border-color: var(--neutral-20);
+}
+
+.field.default {
+  background-color: var(--white-0);
+  border-color: var(--neutral-20);
+}
+
+.field.filled-focus {
+  background-color: var(--white-0);
+  border-color: var(--primary-50);
+}
+
+.field.disable {
+  background-color: var(--neutral-10);
+  border-color: var(--neutral-30);
+}
+
+.field.focus .label {
+  color: var(--neutral-90);
+}
+
+.field.filled .label {
+  color: var(--neutral-90);
+}
+
+.field.default .label {
+  color: var(--neutral-30);
+}
+
+.field.filled-focus .label {
+  color: var(--neutral-90);
+}
+
+.field.disable .label {
+  color: var(--neutral-30);
+}

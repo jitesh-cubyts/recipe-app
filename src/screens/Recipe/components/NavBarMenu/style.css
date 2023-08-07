@@ -1,0 +1,77 @@
+.nav-bar-menu {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-bar-menu .icon-general-plus {
+  position: relative;
+}
+
+.nav-bar-menu .img {
+  height: 12px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 12px;
+}
+
+.nav-bar-menu .icon {
+  height: 22px;
+  left: 2px;
+  position: relative;
+  top: 1px;
+  width: 21px;
+}
+
+.nav-bar-menu .overlap-group {
+  height: 22px;
+  position: relative;
+}
+
+.nav-bar-menu .stroke {
+  height: 20px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 19px;
+}
+
+.nav-bar-menu .union-2 {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.nav-bar-menu .icon-nav-home-inactive {
+  left: 8px !important;
+  position: relative !important;
+  top: 8px !important;
+}
+
+.nav-bar-menu.create {
+  background-image: url(../../img/bg.svg);
+  background-size: 100% 100%;
+}
+
+.nav-bar-menu.create .icon-general-plus {
+  height: 18px;
+  left: 11px;
+  top: 11px;
+  width: 18px;
+}
+
+.nav-bar-menu.inactive .icon-general-plus {
+  height: 18px;
+  left: 11px;
+  top: 11px;
+  width: 18px;
+}
+
+.nav-bar-menu.active .icon-general-plus {
+  height: 24px;
+  left: 8px;
+  top: 8px;
+  width: 24px;
+}

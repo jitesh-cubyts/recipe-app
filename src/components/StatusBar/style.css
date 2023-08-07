@@ -1,0 +1,91 @@
+.status-bar {
+  height: 44px;
+  position: relative;
+  width: 375px;
+}
+
+.status-bar .symbols {
+  height: 13px;
+  left: 294px;
+  position: absolute;
+  top: 17px;
+  width: 68px;
+}
+
+.status-bar .battery {
+  background-size: 100% 100%;
+  height: 12px;
+  left: 42px;
+  position: absolute;
+  top: 1px;
+  width: 24px;
+}
+
+.status-bar .rectangle {
+  border-radius: 1.6px;
+  height: 10px;
+  left: 1px;
+  position: relative;
+  top: 1px;
+  width: 20px;
+}
+
+.status-bar .combined-shape {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 17px;
+}
+
+.status-bar .wi-fi {
+  height: 11px;
+  left: 22px;
+  position: absolute;
+  top: 1px;
+  width: 15px;
+}
+
+.status-bar .bars-status-time {
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 180px;
+}
+
+.status-bar .time {
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: -0.17px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
+}
+
+.status-bar .dark-mode {
+  background-image: url(../../../static/img/rectangle-1.svg);
+}
+
+.status-bar .light-mode {
+  background-image: url(../../../static/img/rectangle.svg);
+}
+
+.status-bar .property-1-0-dark-mode {
+  color: var(--white-0);
+}
+
+.status-bar .property-1-0-light-mode {
+  color: var(--neutral-90);
+}
+
+.status-bar .battery.dark-mode .rectangle {
+  background-color: var(--white-0);
+}
+
+.status-bar .battery.light-mode .rectangle {
+  background-color: var(--neutral-90);
+}

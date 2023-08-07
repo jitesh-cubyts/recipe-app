@@ -1,0 +1,21 @@
+.home-indicator {
+  height: 34px;
+  width: 375px;
+}
+
+.home-indicator .line {
+  border-radius: 100px;
+  height: 5px;
+  left: 120px;
+  position: relative;
+  top: 21px;
+  width: 135px;
+}
+
+.home-indicator .dark-mode {
+  background-color: var(--white-0);
+}
+
+.home-indicator .light-mode {
+  background-color: var(--neutral-90);
+}

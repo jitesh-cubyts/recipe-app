@@ -1,0 +1,128 @@
+.if-they-have {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.if-they-have .div {
+  background-color: var(--white-0);
+  border: 1px none;
+  height: 1254px;
+  position: relative;
+  width: 375px;
+}
+
+.if-they-have .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 122px;
+}
+
+.if-they-have .video {
+  height: 283px;
+  position: relative;
+  width: 375px;
+}
+
+.if-they-have .group {
+  background-image: url(../../img/food-thumbnail-3.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 335px;
+}
+
+.if-they-have .label {
+  color: var(--neutral-100);
+  font-family: var(--poppins-paragraph-bold-font-family);
+  font-size: var(--poppins-paragraph-bold-font-size);
+  font-style: var(--poppins-paragraph-bold-font-style);
+  font-weight: var(--poppins-paragraph-bold-font-weight);
+  left: 20px;
+  letter-spacing: var(--poppins-paragraph-bold-letter-spacing);
+  line-height: var(--poppins-paragraph-bold-line-height);
+  position: absolute;
+  top: 223px;
+  white-space: nowrap;
+}
+
+.if-they-have .group-2 {
+  background-image: url(../../img/food-thumbnail-2.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 335px;
+}
+
+.if-they-have .group-3 {
+  background-image: url(../../img/food-thumbnail-1.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 335px;
+}
+
+.if-they-have .group-4 {
+  background-image: url(../../img/food-thumbnail.png);
+  background-size: 100% 100%;
+  height: 200px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 335px;
+}
+
+.if-they-have .heading {
+  height: 122px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.if-they-have .title {
+  color: var(--neutral-90);
+  font-family: var(--poppins-h4-bold-font-family);
+  font-size: 24px;
+  font-style: var(--poppins-h4-bold-font-style);
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: var(--poppins-h4-bold-letter-spacing);
+  line-height: var(--poppins-h4-bold-line-height);
+  position: absolute;
+  top: 51px;
+  white-space: nowrap;
+}
+
+.if-they-have .icon-general-more {
+  height: 24px;
+  left: 331px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.if-they-have .img {
+  height: 4px;
+  left: 3px;
+  position: absolute;
+  top: 10px;
+  width: 18px;
+}
+
+.if-they-have .icon-general-arrow-left {
+  left: 20px !important;
+  position: absolute !important;
+  top: 12px !important;
+}

@@ -1,0 +1,15 @@
+.nav-bar-menu {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-bar-menu .icon-nav-home-inactive {
+  left: 8px !important;
+  position: relative !important;
+  top: 8px !important;
+}
+
+.nav-bar-menu.create {
+  background-image: url(../../../static/img/bg.svg);
+  background-size: 100% 100%;
+}

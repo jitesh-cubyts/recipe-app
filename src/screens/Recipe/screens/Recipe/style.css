@@ -1,0 +1,450 @@
+.recipe {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.recipe .div-2 {
+  background-color: var(--white-0);
+  border: 1px none;
+  height: 1254px;
+  position: relative;
+  width: 100%;
+}
+
+.recipe .overlap {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 452px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.recipe .ingredients {
+  height: 496px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.recipe .header {
+  background-color: transparent;
+  height: 28px;
+  left: 20px;
+  position: absolute;
+  top: 12px;
+  width: 100%;
+}
+
+.recipe .title {
+  color: var(--neutral-90);
+  font-family: var(--poppins-h5-bold-font-family);
+  font-size: var(--poppins-h5-bold-font-size);
+  font-style: var(--poppins-h5-bold-font-style);
+  font-weight: var(--poppins-h5-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--poppins-h5-bold-letter-spacing);
+  line-height: var(--poppins-h5-bold-line-height);
+  position: absolute;
+  top: 0;
+  width: 164px;
+}
+
+.recipe .servings {
+  height: 20px;
+  left: 283px;
+  position: absolute;
+  top: 4px;
+  width: 54px;
+}
+
+.recipe .label {
+  color: var(--neutral-40);
+  font-family: var(--poppins-label-regular-font-family);
+  font-size: var(--poppins-label-regular-font-size);
+  font-style: var(--poppins-label-regular-font-style);
+  font-weight: var(--poppins-label-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--poppins-label-regular-letter-spacing);
+  line-height: var(--poppins-label-regular-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.recipe .overlap-group-wrapper {
+  height: 76px;
+  left: 20px;
+  position: absolute;
+  top: 56px;
+  width: 328px;
+}
+
+.recipe .overlap-group-2 {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  height: 76px;
+  position: relative;
+  width: 324px;
+}
+
+.recipe .tabs {
+  align-items: center;
+  background-color: #ffc906;
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 4px;
+  left: 199px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 21px;
+}
+
+.recipe .image {
+  height: 24px;
+  object-fit: cover;
+  position: relative;
+  width: 24.3px;
+}
+
+.recipe .text-wrapper {
+  color: #000000;
+  font-family: var(--poppins-small-bold-font-family);
+  font-size: var(--poppins-small-bold-font-size);
+  font-style: var(--poppins-small-bold-font-style);
+  font-weight: var(--poppins-small-bold-font-weight);
+  letter-spacing: var(--poppins-small-bold-letter-spacing);
+  line-height: var(--poppins-small-bold-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.recipe .label-2 {
+  color: var(--neutral-40);
+  font-family: var(--poppins-label-regular-font-family);
+  font-size: var(--poppins-label-regular-font-size);
+  font-style: var(--poppins-label-regular-font-style);
+  font-weight: var(--poppins-label-regular-font-weight);
+  left: 70px;
+  letter-spacing: var(--poppins-label-regular-letter-spacing);
+  line-height: var(--poppins-label-regular-line-height);
+  position: absolute;
+  text-align: right;
+  top: 39px;
+  white-space: nowrap;
+}
+
+.recipe .icon-noodles {
+  background-image: url(../../img/rectangle-11-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 14px;
+  width: 48px;
+}
+
+.recipe .text-wrapper-2 {
+  color: var(--neutral-90);
+  font-family: var(--poppins-paragraph-bold-font-family);
+  font-size: var(--poppins-paragraph-bold-font-size);
+  font-style: var(--poppins-paragraph-bold-font-style);
+  font-weight: var(--poppins-paragraph-bold-font-weight);
+  left: 70px;
+  letter-spacing: var(--poppins-paragraph-bold-letter-spacing);
+  line-height: var(--poppins-paragraph-bold-line-height);
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.recipe .overlap-wrapper {
+  height: 76px;
+  left: 20px;
+  position: absolute;
+  top: 144px;
+  width: 328px;
+}
+
+.recipe .icon-noodles-2 {
+  background-image: url(../../img/rectangle-11-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 14px;
+  width: 48px;
+}
+
+.recipe .div-wrapper {
+  height: 76px;
+  left: 20px;
+  position: absolute;
+  top: 232px;
+  width: 328px;
+}
+
+.recipe .icon-noodles-3 {
+  background-image: url(../../img/rectangle-11-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 14px;
+  width: 48px;
+}
+
+.recipe .overlap-wrapper-2 {
+  height: 76px;
+  left: 20px;
+  position: absolute;
+  top: 320px;
+  width: 328px;
+}
+
+.recipe .icon-noodles-4 {
+  background-image: url(../../img/rectangle-11-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 14px;
+  width: 48px;
+}
+
+.recipe .overlap-wrapper-3 {
+  height: 76px;
+  left: 20px;
+  position: absolute;
+  top: 408px;
+  width: 328px;
+}
+
+.recipe .icon-noodles-5 {
+  background-image: url(../../img/rectangle-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 48px;
+  left: 12px;
+  position: absolute;
+  top: 14px;
+  width: 48px;
+}
+
+.recipe .group {
+  height: 74px;
+  left: 281px;
+  position: absolute;
+  top: 318px;
+  width: 74px;
+}
+
+.recipe .overlap-2 {
+  height: 74px;
+  left: -4px;
+  position: relative;
+  width: 78px;
+}
+
+.recipe .ellipse {
+  background-color: #303030;
+  border-radius: 34px;
+  height: 68px;
+  left: 10px;
+  position: absolute;
+  top: 6px;
+  width: 68px;
+}
+
+.recipe .ellipse-2 {
+  height: 44px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 44px;
+}
+
+.recipe .iconsax-linear {
+  height: 30px;
+  left: 29px;
+  position: absolute;
+  top: 25px;
+  width: 30px;
+}
+
+.recipe .video {
+  height: 330px;
+  left: 0;
+  position: absolute;
+  top: 122px;
+  width: 375px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.recipe .group-2 {
+  height: 301px;
+  left: 20px;
+  position: relative;
+  top: 12px;
+  width: 337px;
+}
+
+.recipe .label-3 {
+  color: var(--neutral-100);
+  font-family: var(--poppins-paragraph-bold-font-family);
+  font-size: var(--poppins-paragraph-bold-font-size);
+  font-style: var(--poppins-paragraph-bold-font-style);
+  font-weight: var(--poppins-paragraph-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--poppins-paragraph-bold-letter-spacing);
+  line-height: var(--poppins-paragraph-bold-line-height);
+  position: absolute;
+  top: 216px;
+  width: 335px;
+}
+
+.recipe .food-thumbnail {
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.recipe .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 9px;
+  left: 0;
+  position: absolute;
+  top: 249px;
+}
+
+.recipe .iconsax-bulk {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.recipe .text-wrapper-3 {
+  color: #535353;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.6px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.recipe .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 9px;
+  left: 0;
+  position: absolute;
+  top: 277px;
+}
+
+.recipe .heading {
+  height: 122px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+  margin-left: 20px;
+}
+
+.recipe .h-1 {
+  color: var(--neutral-90);
+  font-family: var(--poppins-h4-bold-font-family);
+  font-size: 24px;
+  font-style: var(--poppins-h4-bold-font-style);
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: var(--poppins-h4-bold-letter-spacing);
+  line-height: var(--poppins-h4-bold-line-height);
+  position: absolute;
+  top: 51px;
+  width: 335px;
+}
+
+.recipe .icon-general-more {
+  height: 24px;
+  left: 331px;
+  position: absolute;
+  top: 12px;
+  width: 24px;
+}
+
+.recipe .union-4 {
+  height: 4px;
+  left: 3px;
+  position: absolute;
+  top: 10px;
+  width: 18px;
+}
+
+.recipe .nav-bar-menu-instance {
+  left: 287px !important;
+  position: absolute !important;
+  top: 4px !important;
+}
+
+.recipe .icon-nav-bookmark-inactive {
+  left: 8px !important;
+  top: 8px !important;
+}
+
+.recipe .icon-general-arrow-left {
+  left: 20px !important;
+  position: absolute !important;
+  top: 12px !important;
+}
+
+.recipe .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 20px;
+  position: absolute;
+  top: 973px;
+  margin-left: 20px;
+}
+
+.recipe .title-2 {
+  color: var(--neutral-90);
+  font-family: var(--poppins-h5-bold-font-family);
+  font-size: var(--poppins-h5-bold-font-size);
+  font-style: var(--poppins-h5-bold-font-style);
+  font-weight: var(--poppins-h5-bold-font-weight);
+  letter-spacing: var(--poppins-h5-bold-letter-spacing);
+  line-height: var(--poppins-h5-bold-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 164px;
+}
+
+.recipe .prepare-stir-fry {
+  color: #757575;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: relative;
+  width: 330px;
+}

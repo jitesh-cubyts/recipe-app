@@ -1,0 +1,1 @@
+export { IconGeneralSearch } from "./IconGeneralSearch";

@@ -1,0 +1,13 @@
+.icon-general-arrow {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.icon-general-arrow .img {
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}

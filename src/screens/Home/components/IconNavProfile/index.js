@@ -1,0 +1,1 @@
+export { IconNavProfile } from "./IconNavProfile";

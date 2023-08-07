@@ -1,0 +1,101 @@
+.onboarding {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.onboarding .div {
+  background-color: var(--white-0);
+  border: 1px none;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.onboarding .overlap-group {
+  background-image: url(../../../static/img/background.png);
+  background-size: 100% 100%;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.onboarding .effect {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  height: 416px;
+  left: 0;
+  position: absolute;
+  top: 396px;
+  width: 100%;
+}
+
+.onboarding .content {
+  height: 274px;
+  left: 59px;
+  position: absolute;
+  top: 456px;
+  width: 257px;
+}
+
+.onboarding .button-instance {
+  justify-content: center !important;
+  left: 26px !important;
+  position: absolute !important;
+  top: 220px !important;
+  width: 206px !important;
+}
+
+.onboarding .design-component-instance-node {
+  flex: unset !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  width: fit-content !important;
+}
+
+.onboarding .text-2 {
+  height: 202px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 261px;
+}
+
+.onboarding .header-title {
+  color: var(--white-0);
+  font-family: var(--poppins-heading-bold-font-family);
+  font-size: var(--poppins-heading-bold-font-size);
+  font-style: var(--poppins-heading-bold-font-style);
+  font-weight: var(--poppins-heading-bold-font-weight);
+  left: 5px;
+  letter-spacing: var(--poppins-heading-bold-letter-spacing);
+  line-height: var(--poppins-heading-bold-line-height);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 247px;
+}
+
+.onboarding .caption {
+  color: var(--white-0);
+  font-family: var(--poppins-paragraph-regular-font-family);
+  font-size: var(--poppins-paragraph-regular-font-size);
+  font-style: var(--poppins-paragraph-regular-font-style);
+  font-weight: var(--poppins-paragraph-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--poppins-paragraph-regular-letter-spacing);
+  line-height: var(--poppins-paragraph-regular-line-height);
+  position: absolute;
+  text-align: center;
+  top: 158px;
+  width: 257px;
+}
+
+.onboarding .home-indicator-instance {
+  left: 0 !important;
+  position: fixed !important;
+  top: 778px !important;
+}
